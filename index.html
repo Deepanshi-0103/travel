@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blooger</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--bootstrap custom-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!------fonts------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-----navigation bar----->
+
+<nav class="navbar navbar-expand-lg " style="background-color:rgb(242, 233, 228);">
+    <div class="container-fluid" style="font-weight: 600; font-size: 20px;">
+      <a class="navbar-brand"     href="index.html" id="logo"><span>X</span>ravel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText"  style="background-color:rgb(242, 233, 228);" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sService">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <div class="social-icons">
+            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--------navigation bar ends------>
+
+<!--screen1(home)----->
+<div class="main">
+<div class="video-container">
+  <video autoplay loop muted playsinline>
+      <source src="video.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h3> Welcome to World</h3>
+    <p>It's High Time to freshen up!</p>
+      <h1>TOUR & <span class="changecontent"></span></h1>
+     <br> <a href="#book">Book Place</a>
+  </div>
+</div>
+<!--screen1 ends----->
+
+<!--screen2(book) starts----->
+<section class="book" id="book">
+    <div class="container">
+       <div class="main-text"> 
+        <h1><span>B</span>ook</h1>
+          </div>
+      <div class="row">
+        <div class="col-md-5 py-2 py-md-0" style="padding-right: 30px; ">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+           <form action="#">
+            <input type="text" class="form-control" placeholder="Where To" required><br>
+            <input type="text" class="form-control" placeholder="How Many" required><br>
+            <input type="date" class="form-control" placeholder="Arrival" required><br>
+            <input type="date" class="form-control" placeholder="Leaving" required><br>
+            <textarea class="form-control" row="5" name="text" placeholder="Enter Your Name & Details"></textarea><br>
+          <input type="submit" value="Book Now" class="submit" required>
+          </form>
+        
+      </div>
+  </div>
+<br>
+<br>
+<br>
+<br>  </section>
+<!--screen2(book) ends----->
+
+
+<!--------section packages start----->
+<section class="packages" id="packages">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+  <div class="row">
+    <div class="col-md-4 py-3 py-md-0">
+    <div class="card" style="width: 25rem;">
+      <img src="https://images.pexels.com/photos/575362/pexels-photo-575362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">United Kingdom</h3>
+        <p class="card-text">Explore the United Kingdom, where historic landmarks meet stunning countryside. From London's sights to Scotland's Highlands, adventure awaits!</p>
+<div class="star">
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+        </div>
+  </div>
+  </div>
+  
+
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card" style="width: 25rem;">
+    <img src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">India</h5>
+      <p class="card-text">Experience India, a land of vibrant culture, historic wonders, and breathtaking landscapes. From the Taj Mahal to Himalayan peaks, it's a journey of a lifetime.</p>
+<div class="star">
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+      </div>
+</div>
+</div>
+
+
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card" style="width: 25rem;">
+    <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">France</h5>
+      <p class="card-text">Discover France, a blend of romantic cities, historic landmarks, and scenic countryside. From the Eiffel Tower to Provence's vineyards, it's pure enchantment</p>
+<div class="star">
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star chcked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+      </div>
+</div>
+</div>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-4 py-3 py-md-0">
+    <div class="card" style="width: 25rem;">
+      <img src="https://images.pexels.com/photos/356966/pexels-photo-356966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Italy</h3>
+        <p class="card-text">Unveil Italy’s charm with its ancient ruins, picturesque towns, and world-famous cuisine. From Rome’s history to Venice’s canals, it’s a feast for the senses.</p>
+<div class="star">
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star checked"></i>
+  <i class="fa-solid fa-star chcked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+        </div>
+  </div>
+  </div>
+  
+
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card" style="width: 25rem;">
+    <img src="https://images.pexels.com/photos/5847768/pexels-photo-5847768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">United States</h5>
+      <p class="card-text">Explore the United States, a land of diverse landscapes and iconic cities. From New York’s skyline to the Grand Canyon’s wonders, adventure is endless.</p>
+<div class="star">
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+      </div>
+</div>
+</div>
+
+
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card" style="width: 25rem;">
+    <img src="https://images.pexels.com/photos/11179154/pexels-photo-11179154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pakistan</h5>
+      <p class="card-text">Discover Pakistan, a treasure of ancient history, vibrant culture, and majestic peaks. From Lahore’s heritage to the Karakoram mountains, it’s truly captivating.</p>
+<div class="star">
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star checked"></i>
+<i class="fa-solid fa-star chcked"></i>
+<i class="fa-solid fa-star chcked"></i>
+</div>    
+<h6>Price:<strong>$500</strong></h6> 
+<hr><a href="#book">Book Now</a>
+
+      </div>
+</div>
+</div>
+
+  </div>
+
+</section>
+
+<!--------section packages ends----->
+<!-------services starts------>
+<section class="services" id="services">
+  <div class="container">
+    <div class="maintxt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+      <div class="row">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+          <i class="fas fa-hotel"></i>
+        <div class="card-info">
+          <h3>Affordable Hotel</h3>
+          <p>Stay in comfort without breaking the bank. We help you find affordable hotels that combine quality and value, making your travel budget-friendly.</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+          <i class="fas fa-utensils"></i>
+        <div class="card-info">
+          <h3>Food & Drinks </h3>
+          <p>Savor delicious cuisines and local delicacies wherever you go. From street food to fine dining, we guide you to the best culinary experiences.</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+          <i class="fas fa-bullhorn"></i>
+        <div class="card-info">
+          <h3>Safety Guide</h3>
+          <p>Travel worry-free with our expert safety guides. We provide essential tips and resources to ensure a secure and hassle-free journey.</p>
+        </div>
+      </div>
+      
+    </div>
+      </div>
+
+<br>
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+              <i class="fas fa-globe-asia"></i>
+            <div class="card-info">
+              <h3>Around the World</h3>
+              <p>Embark on a journey across the globe with curated experiences for every destination. Discover cultures, landmarks, and adventures worldwide.</p>
+            </div>
+          </div>
+          
+        </div>
+    
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+              <i class="fas fa-plane"></i>
+            <div class="card-info">
+              <h3>Fastest Travel</h3>
+              <p>Save time with our fastest travel solutions. From direct flights to efficient routes, we make sure you reach your destination quickly and comfortably.</p>
+            </div>
+          </div>
+          
+        </div>
+    
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+              <i class="fas fa-hiking"></i>
+            <div class="card-info">
+              <h3>Adventures</h3>
+              <p>Fuel your adrenaline with thrilling adventures. From mountain treks to water sports, we bring you the most exciting outdoor experiences.</p>
+            </div>
+          </div>
+          
+        </div>
+          </div>
+  </div> 
+</section>
+<!-----services end----->
+<!----gallery starts---->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="gallerytxt">
+        <h1><span>G</span>allery</h1>
+      </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/30037003/pexels-photo-30037003/free-photo-of-historic-palais-des-papes-in-avignon-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1446624/pexels-photo-1446624.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/460680/pexels-photo-460680.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/2643896/pexels-photo-2643896.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1427572/pexels-photo-1427572.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/3560161/pexels-photo-3560161.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/3700529/pexels-photo-3700529.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/15528027/pexels-photo-15528027/free-photo-of-tourists-at-historic-landmark.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/12638470/pexels-photo-12638470.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+          </div>
+         </div>
+    </div>
+  </div>
+</section>
+<!----gallery ends---->
+<!--about us starts------->
+<section class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="abouttxt">
+      <h1>About <span>Us</span></h1>
+    </div>
+   <div class="col-md-5 py-3 py-md-0">
+      <br><div class="card">
+        <img src="https://5.imimg.com/data5/GN/YL/XD/SELLER-41990570/tour-operators-500x500.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-7 py-2 py-md-0">
+      <div class="about-us">
+   <br>     <h2>How Our Travel Agency Work</h2>
+        <p> <h4>At our travel agency, we simplify and enhance your travel experience with a seamless process designed to meet your needs:
+        </h4>
+<br>
+         <span>1.Understanding Your Preferences:</span> We begin by understanding your travel goals, preferences, and budget. Whether you seek relaxation, adventure, or cultural exploration, we tailor every detail to you.
+          <br>
+          <br>
+         <span>2.Planning & Customization:</span> Our experts craft personalized itineraries that include accommodations, activities, and transportation. We ensure your trip is both efficient and enjoyable.
+          <br>
+          <br>
+          <span>3.Booking Made Easy:</span> From flights and hotels to tours and experiences, we handle all bookings, saving you time and ensuring the best deals.
+          <br>
+          <br>
+          <span>4.Guidance & Support:</span> We provide detailed travel guides, safety tips, and recommendations to make your journey smooth and worry-free.
+          <br>
+          <br>
+          <span>5.24/7 Assistance:</span> Our dedicated support team is available around the clock to assist with any concerns during your trip.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+</div>
+<!-------about us ends----->
+
+
+<!----------footer starts------------>
+<footer class="text-white pt-4" style="background-color: #0d2532;">
+  <div class="container">
+      <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4 mb-3 xyz">
+              <h5 style="color:#f6aa1c; font-size: 26px;">About Us</h5>
+              <p>
+                  We provide exceptional travel experiences with tailored packages and services designed to make your journeys memorable and hassle-free.
+              </p>
+          </div>
+
+          <!-- Quick Links Section -->
+          <div class="col-md-4 mb-3">
+              <h5 style="color:#f6aa1c; font-size: 26px; text-align: center;" >Quick Links</h5>
+              <ul class="list-unstyled" style="text-align: center;">
+                  <li><a href="#home" class="text-white text-decoration-none abc">Home</a></li>
+                  <li><a href="#book" class="text-white text-decoration-none abc">Book</a></li>
+                  <li><a href="#packages" class="text-white text-decoration-none abc">Packages</a></li>
+                  <li><a href="#services" class="text-white text-decoration-none abc">Services</a></li>
+                  <li><a href="#gallery" class="text-white text-decoration-none abc">Gallery</a></li>
+                  <li><a href="#about" class="text-white text-decoration-none abc">About</a></li>
+              </ul>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="col-md-4 mb-3 xyz">
+              <h5 style="color:#f6aa1c; font-size: 26px;" >Contact Us</h5>
+              <p>
+                  <i class="bi bi-geo-alt"></i> 123 Travel Street, Wanderlust City, Country<br>
+                  <i class="bi bi-envelope"></i> singhaldee01@gmail.com<br>
+                  <i class="bi bi-telephone"></i> +123 456 7890
+              </p>
+          </div>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="row mt-3" >
+          <div class="col text-center" style="color:#f6aa1c; font-size: 23px;">
+              <h6>Follow Us</h6>
+              <a href="https://github.com/Deepanshi-0103" class="text-white mx-2 text-decoration-none"><i class="bi bi-github"></i></a>
+              <a href="#" class="text-white mx-2 text-decoration-none"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/deesinghal/" class="text-white mx-2 text-decoration-none"><i class="bi bi-linkedin"></i></a>
+          </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="row mt-4">
+          <div class="col text-center">
+              <p class="mb-0">&copy; 2025 Your Travel Agency. All Rights Reserved.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-------------footer ends-------->
+      <!-- Bootstrap JS (Bundle with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
